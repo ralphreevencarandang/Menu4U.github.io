@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU4YOU</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://kit.fontawesome.com/fa5bb6b8d5.js" crossorigin="anonymous"></script>
+
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    
+    
+    <header>
+      <img src="images/menu4ulogo.png" alt="Logo" />
+      <h1 class="menu">MENU <span>4</span> YOU</h1>
+    
+  
+    </header>
+
+    <main class="container">
+      <h1>Menu</h1>
+      <p class="menu-description">
+        Explore our wide range of coffee and tea products, carefully selected and crafted to elevate your beverage experience. From rich and robust brews to delicate and aromatic teas, we offer something for every palate.
+
+
+      </p>
+      <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <button id="btn-all" class="active">All</button>
+        <button id="btn-hot">Hot Coffee</button>
+        <button id="btn-cold">Cold Drinks</button>
+        <button id="btn-tea">Tea</button>
+
+
+        <button id="btn-dessert">Dessert</button>
+      </div>
+
+      <div class="hot-drinks fade-in" id="section-hot" >
+        <h1 class="menu-title">Hot Coffee</h1>
+        <div class="menu-container">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/espresso.jpg"
+              class="card-img-top"
+              alt="Espresso"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+
+              <p class="card-text">
+                A rich, full-bodied coffee brewed to perfection, delivering a bold and intense flavor with a velvety crema. 
+              </p>
+              <h5>₱200.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/americano.jpg"
+              class="card-img-top"
+              alt="americano"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Americano</h5>
+
+              <p class="card-text">
+                A smooth and robust coffee experience made by diluting a rich espresso shot with hot water.
+              </p>
+              <h5>₱200.00</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/macchiato.png"
+              class="card-img-top"
+              alt="Macchiato"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Macchiato</h5>
+
+              <p class="card-text">
+                A sophisticated blend of espresso marked with a touch of frothy milk, creating a harmonious balance of strong coffee and creamy texture.
+              </p>
+              <h5>₱300.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/mocha.png"
+              class="card-img-top"
+              alt="Mocha"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mocha</h5>
+              <p class="card-text">
+                A delightful fusion of rich espresso, steamed milk, and decadent chocolate, topped with a hint of whipped cream.
+              </p>
+              <h5>₱280.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/latte.png"
+              class="card-img-top"
+              alt="Coffee Latte"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coffee Latte</h5>
+
+              <p class="card-text">
+                A classic favorite combining a robust shot of espresso with smooth, steamed milk, topped with a thin layer of froth.
+              </p>
+              <h5>₱280.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/cappuccino.jpg"
+              class="card-img-top"
+              alt="Cappuccino"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cappuccino</h5>
+
+              <p class="card-text">
+                A timeless blend of equal parts espresso, steamed milk, and frothy foam.
+              </p>
+              <h5>₱200.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/velvetcoffee.jpeg"
+              class="card-img-top"
+              alt="Velvet Coffee"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Velvet Coffee</h5>
+
+              <p class="card-text">
+                A luxurious coffee experience, featuring a smooth and creamy blend of espresso and velvety steamed milk.
+              </p>
+              <h5>₱250.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/cinnamoncoffee.png"
+              class="card-img-top"
+              alt="Cinnamon Coffee"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cinnamon Coffee</h5>
+
+              <p class="card-text">
+                A warm and aromatic coffee infused with the sweet and spicy essence of cinnamon.
+              </p>
+              <h5>₱220.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cold-drinks fade-in" id="section-cold">
+        <h1 class="menu-title">Cold Drinks</h1>
+        <div class="menu-container">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/icedcoffee.png"
+              class="card-img-top"
+              alt="iced coffee"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Iced Coffee</h5>
+
+              <p class="card-text">
+                Cool down with our refreshing Iced Coffee, a perfect blend of rich espresso and creamy milk served over ice.
+              </p>
+              <h5>₱100.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/chocolateshake.png"
+              class="card-img-top"
+              alt="chocolate Shake"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chocolate Shake</h5>
+
+              <p class="card-text">
+                Indulge in our decadent Chocolate Shake, a delightful mix of velvety chocolate ice cream and creamy milk, blended to perfection.
+              </p>
+              <h5>₱200.00</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/smoothie.png"
+              class="card-img-top"
+              alt="Smoothie"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Smoothie</h5>
+
+              <p class="card-text">
+                Enjoy our nutritious and delicious Smoothie, packed with fresh fruits and blended to create a smooth, refreshing beverage.
+              </p>
+              <h5>₱180.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/strawberrymilkshake.png"
+              class="card-img-top"
+              alt="strawberrymilkshake"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Strawberry Milkshake</h5>
+              <p class="card-text">
+                Savor the sweet and tangy taste of our Strawberry Milkshake, crafted with real strawberries and creamy milk.
+              </p>
+              <h5>₱190.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/lemonade.png"
+              class="card-img-top"
+              alt="Lemonade"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lemonade</h5>
+
+              <p class="card-text">
+                Quench your thirst with our zesty Lemonade, a perfect balance of tangy lemon juice and a touch of sweetness..
+              </p>
+              <h5>₱75.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/coffeejelly.png"
+              class="card-img-top"
+              alt="Coffee Jelly"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coffee Jelly</h5>
+
+              <p class="card-text">
+                A delicious dessert drink featuring smooth coffee-flavored jelly cubes submerged in a sweet and creamy coffee base.
+              </p>
+              <h5>₱75.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/applejuice.png"
+              class="card-img-top"
+              alt="Apple Juice"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Apple Juice</h5>
+
+              <p class="card-text">
+                Refresh yourself with our crisp and pure Apple Juice, made from freshly pressed apples.
+              </p>
+              <h5>₱80.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Teas fade-in" id="section-tea">
+        <h1 class="menu-title">Tea</h1>
+        <div class="menu-container">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/greentea.png"
+              class="card-img-top"
+              alt="Green Tea"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Green Tea</h5>
+
+              <p class="card-text">
+                Delight in the subtle, grassy flavors of our Green Tea, crafted from the finest tea leaves
+              </p>
+              <h5>₱110.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/blacktea.png"
+              class="card-img-top"
+              alt="Black Tea"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Black Tea</h5>
+
+              <p class="card-text">
+                Indulge in the robust and bold flavors of our Black Tea, made from carefully selected tea leaves
+              </p>
+              <h5>₱110.00</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/jasminetea.png"
+              class="card-img-top"
+              alt="Jasmine Tea"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jasmine Tea</h5>
+
+              <p class="card-text">
+                Experience the delicate and fragrant aroma of our Jasmine Tea, a harmonious blend of high-quality green tea leaves and jasmine blossoms.
+              </p>
+              <h5>₱110.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/yellowtea.png"
+              class="card-img-top"
+              alt="Yellow Tea"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yellow Tea</h5>
+              <p class="card-text">
+                Discover the rare and exquisite taste of our Yellow Tea, known for its smooth and mellow flavor.
+              </p>
+              <h5>₱110.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/oolong.png"
+              class="card-img-top"
+              alt="Oolong Tea"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Oolong Tea</h5>
+
+              <p class="card-text">
+                Savor the complex and rich flavors of our Oolong Tea, which lies between green and black tea in oxidation.
+              </p>
+              <h5>₱110.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/indiantea.png"
+              class="card-img-top"
+              alt="Indian Tea"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Indian Tea</h5>
+
+              <p class="card-text">
+                Enjoy the bold and aromatic taste of our Indian Tea, sourced from the finest tea gardens in India. 
+              </p>
+              <h5>₱110.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Dessert fade-in" id="section-dessert">
+        <h1 class="menu-title">Dessert</h1>
+        <div class="menu-container">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/croissaint.png"
+              class="card-img-top"
+              alt="Croissant"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Croissant</h5>
+
+              <p class="card-text">
+                A classic French pastry that is perfect for breakfast or as a snack.
+              </p>
+              <h5>₱110.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/cheesecake.png"
+              class="card-img-top"
+              alt="Cheesecake"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cheese Cake</h5>
+
+              <p class="card-text">
+                Treat yourself to the creamy and luscious taste of our Cheese Cake, a decadent dessert that is sure to satisfy your sweet cravings
+              </p>
+              <h5>₱260.00</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/redvelvetcake.png"
+              class="card-img-top"
+              alt="redvelvetcake"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Red Velvet Cake</h5>
+
+              <p class="card-text">
+                Experience the velvety and luxurious taste of our Red Velvet Cake, a classic dessert that is as beautiful as it is delicious
+              </p>
+              <h5>₱260.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/dougnot.png"
+              class="card-img-top"
+              alt="Donut"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Donut</h5>
+              <p class="card-text">
+                Enjoy the sweet and satisfying taste of our Donut, a beloved treat that is perfect for any time of day. 
+              </p>
+              <h5>₱150.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/cookies.png"
+              class="card-img-top"
+              alt="Cookies"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cookies</h5>
+
+              <p class="card-text">
+                Savor the homemade goodness of our Cookies, baked fresh with the finest ingredients. 
+              </p>
+              <h5>₱100.00</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/cinnamonroll.png"
+              class="card-img-top"
+              alt="Cinnamon Roll"
+              height="250px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cinnamon Roll</h5>
+
+              <p class="card-text">
+                Indulge in the warm and comforting flavors of our Cinnamon Roll, a delicious treat that is perfect for breakfast or as a sweet snack
+              </p>
+              <h5>₱150.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <button onclick="topFunction()" id="scrollUpBtn" title="Go to top" ><i class="fa-solid fa-arrow-up"></i></button>
+
+
+
+    </main>
+
+    <section>
+     
+        <div class="contact-info">
+          <h1 class="">Contact Us</h1>
+          <p class=""><i class="fa-solid fa-phone"></i> +63 912-4567-890</p>
+          <p class=""><i class="fa-solid fa-envelope"></i> Menu4You@gmail.com</p>
+          <p class=""><i class="fa-solid fa-location-dot"></i> Silang, Cavite, Philippines</p>
+        </div>
+
+        <div class="contact-form">
+          <div class="form-floating">
+            <input type="text" class="form-control my-3" id="floatingPassword" placeholder="Name">
+            <label for="floatingPassword">Name</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control my-3" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+       
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Message</label>
+          </div>
+
+          <div class="form-group col-12 mb-0">
+            <button type="submit" class="btn-sendmess">Send Message</button>
+        </div>   
+
+        
+
+        </div>
+     
+    </section>
+
+ 
+      <div class="icon-container">
+        <i class="fa-brands fa-facebook fa-2x" ></i>
+        <i class="fa-brands fa-github fa-2x"></i>
+        <i class="fa-brands fa-twitter fa-2x"></i>
+        <i class="fa-brands fa-tiktok fa-2x"></i>
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        <p>Created By:</p>
+        <p> Carandang, Cinco, Hincayog, Jabonero</p>
+      </div>
+
+    
+
+    
+
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
